@@ -209,7 +209,7 @@ Here's a [link to my video result](./output_video.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-- I will do a better job on the color transformation, because my current implementation is falling short on working with optional challenges. In particular it 'misinterprets' asphalt colors as lanes. I will try to apply other color spaces and channels to tackle this problem.
-- Also, still my region of interest is a fixed trapezoid. It is very likely that a sharp turn will be simply out of it. I'll play with a different shape/proportions of ROI.
+- I would do a better job on the color transformation, because my current implementation is falling short on working with optional challenges. In particular it 'misinterprets' asphalt colors as lanes. I will try to apply other color spaces and channels to tackle this problem.
+- Also, still my region of interest is a fixed trapezoid. It is very likely that a sharp turn will be simply out of it. I'd play with a different shape/proportions of ROI.
 
 
