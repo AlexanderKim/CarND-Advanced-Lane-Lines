@@ -195,6 +195,11 @@ The entire pipeline is put together in the cell of the same name. Below is an ex
 
 ![Annotations](./writeup_images/annotations.png "Annotations")
 
+Additionally to the transformations and computations described above I've implemented a buffering mechanism to accumulate a given number of measurements, and average them.
+Class Buf is a circular buffer of a given elements. Class Bufs is a wrapper on top of a collection of these buffers. I use these two classes to accumulate and average 35 measurements in a row.
+
+Also I filter the measurements by curvature sanity checks such as ratio of the two and minimal radius of 150.
+
 ---
 
 ### Pipeline (video)
